@@ -1,7 +1,7 @@
 # Thymer-Daylight-Soot
 Light theme aiming to not blind you during the night.
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/c3598fa4-b293-46de-84a5-55669f1f824e" />
+<img width="800" height="600" alt="image" src="daylight-soot.png" />
 
 
 ## How to apply theme:
