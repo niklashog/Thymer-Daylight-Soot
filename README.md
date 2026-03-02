@@ -13,5 +13,5 @@ Light theme aiming to not blind you during the night.
 - Highlight color in warning blocks
 
 ## Changelog
-### 2/3-2026
-- Uploaded theme
+### 3/3-2026
+- White side-panel-border is no more.
