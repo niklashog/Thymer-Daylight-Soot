@@ -1,2 +1,17 @@
 # Thymer-Daylight-Soot
 Light theme aiming to not blind you during the night.
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/c3598fa4-b293-46de-84a5-55669f1f824e" />
+
+
+## How to apply theme:
+1. Open the Daylight Soot CSS in this repository and copy (Ctrl + C) all of its contents.
+2. Open up Thymer. Press Ctrl + P >  Upload Custom CSS > paste (Ctrl + V) > Click Save. 
+3. Press Ctrl + P again > Set Theme & Dark or Light Appearance > Daylight Soot.
+
+## To do / work in progress
+- Highlight color in warning blocks
+
+## Changelog
+### 2/3-2026
+- Uploaded theme
