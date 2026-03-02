@@ -1,0 +1,205 @@
+/* ------------------------------------------- */
+/* Daylight Soot - Forest Floor Ed.            */
+/* Made by Niklas Högström                     */
+/* Base: Deep Spruce & Earth | Accents: Soot   */
+/* ------------------------------------------- */
+html[data-theme="basic-daylight-soot"] {
+        color-scheme: light;
+  
+    .sidebar:not(.has-focus):not(:hover) .vscrollbar {
+    opacity: 0.2;
+    }
+       
+    /* 1. Headings - Absolute Charcoal Soot */
+    --panel-white-title-fg: #1a1513;
+    .heading-h1 { color: #0d0b0a; } 
+    .heading-h2 { color: #1a1513; } 
+    .heading-h3 { color: #26211f; } 
+    .heading-h4, .heading-h5, .heading-h6 { color: #0d0b0a; }
+
+    /* 2. Background Colors - Deep Taupe & Earth (Ingen sand, bara mättad jord) */
+    --color-bg-50:  #f2f0ed; 
+    --color-bg-100: #e5e0d8; 
+    --color-bg-150: #d6cfc2; 
+    --color-bg-200: #c2b8a3; 
+    --color-bg-300: #3d3d3d; /* Dark Stone */
+    --color-bg-400: #26211f; 
+    --color-bg-500: #7a7369; /* Mossy Bark */
+    --color-bg-600: #cdc3b4; /* Surface 0 - Main Earth Base */
+    --color-bg-700: #bfb4a3; /* Crust */
+    --color-bg-800: #c6bcac; /* Sidebar */
+    --color-bg-900: #cdc3b4; /* Main window */
+    --color-bg-950: #a69a85;
+    --color-bg-500-50: rgba(122, 115, 105, 0.25); 
+    --color-bg-950-50: rgba(166, 154, 133, 0.85);
+
+    /* 3. Primary Scaling - Charred Timber */
+    --color-primary-50:  #f2f1f0;
+    --color-primary-100: #e5e2df;
+    --color-primary-200: #ccc7c2;
+    --color-primary-300: #99938d;
+    --color-primary-400: #4a413d; 
+    --color-primary-500: #1a1513; /* Deep Soot */
+    --color-primary-600: #141110; 
+    --color-primary-700: #0d0b0a;
+    --color-primary-800: #050404;
+    --color-primary-900: #000000;
+    --color-primary-950: #000000;
+    --color-primary-400-70: rgba(74, 65, 61, 0.7);
+    --color-primary-950-20: rgba(0, 0, 0, 0.2);
+    --color-primary-text-100: #ffffff;
+
+    /* 4. Text, headers and icons - Wet Bark & Graphite */
+    --color-text-50:  #0d0b0a;  
+    --color-text-100: #000000;  
+    --color-text-200: #1a1513;  
+    --color-text-300: #332b28;  
+    --color-text-400: #1a1513;  /* Main text */
+    --color-text-500: #26211f;  
+    --color-text-600: #4a413d;  
+    --color-text-700: #1a1513;  
+    --color-text-800: #0d0b0a;  
+    --color-text-900: #ffffff;  
+    --color-text-950: #2e4d4d;  
+
+    /* 5. Semantic colors - Forest & Wildfire */
+    --text-ok: #2d3a2d;          
+    --text-status-online: #2d3a2d;
+    --text-warning: #7a5c1a;    
+    --text-error: #5c1a1a;      
+    --bg-alert: #5c1a1a;
+    --fg-alert: #5c1a1a;
+
+    /* 6. Links - Deep Spruce Blue-Green */
+    --link-color: #3d4a4a;
+    --link-hover-color: #0d0b0a;
+    --ed-link-color: #3d4a4a;
+    --ed-link-hover-color: #0d0b0a;
+
+    /* 7. Hashtags & Mentions - Lichen */
+    --ed-hashtag-color: #4a5c5c;
+    --ed-hashtag-bg: rgba(74, 92, 92, 0.12);
+    --ed-mention-color: #1a1513;
+    --ed-mention-bg: rgba(26, 21, 19, 0.1);
+    --ed-mention-hover-bg: rgba(26, 21, 19, 0.2);
+    --ed-mention-hover-color: #000000;
+    --ed-datetime-color: #4a413d;
+    --ed-datetime-bg: rgba(0, 0, 0, 0.05);
+
+    /* 8. Checkboxes - Iron Spikes */
+    --ed-check-div-border: #1a1513;
+    --ed-check-div-hover-border: #000000;
+    --ed-check-done-bg: #1a1513;
+    --ed-check-done-fg: #cdc3b4;
+
+    /* 9. Selections & Caret (Obsidian Gleam) */
+    --selection-bg: rgba(26, 21, 19, 0.25);
+    --selection-fg: #000000;
+    --ed-selection-self-bg: rgba(26, 21, 19, 0.2);
+    --ed-selection-blurred-bg: rgba(26, 21, 19, 0.1);
+    --ed-caret-self-radius: 1px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: #0d0b0a;
+    --ed-caret-self-box-shadow: 0 0 6px rgba(13, 11, 10, 0.4);
+    --cmdpal-hilite-color: #3c3a35;
+
+    /* 10. Quotes & Code Blocks */
+    --ed-quote-border-color: #1a1513;
+    --ed-code-border: #7a7369;
+    --ed-code-bg: rgba(0, 0, 0, 0.04);
+
+    /* 11. Cards & Sidebar UI - Forest Depth */
+    --cards-bg: #cdc3b4;
+    --cards-hover-bg: #bfb4a3;
+    --cards-border-color: #4a413d; 
+    --cards-border-color-focused: #1a1513;
+    --side-bg-active-focus: #1a1513; 
+    --side-fg-active-focus: #cdc3b4;
+    --sidebar-bg-hover: #bfb4a3;
+
+        /* Borders */
+        --status-border-color: #7a7369;
+        --panel-title-bottom-border: #7a7369;
+        --panel-sizer-border-color: #7a7369;
+        --sidebar-toggler-border: #7a7369;
+
+    /* 12. Command Palette */
+    --cmdpal-bg-color: #cdc3b4;
+    --cmdpal-selected-bg-color: #1a1513; 
+    --cmdpal-selected-fg-color: #cdc3b4;
+    --cmdpal-hover-bg-color: #bfb4a3;
+    --cmdpal-border-color: #4a413d;
+
+
+    /* 13. Inputs */
+    --input-bg-color: rgba(255, 255, 255, 0.1);
+    --input-border-color: #4a413d;
+    --input-border-focus: 1px solid #1a1513;
+    --input-border-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+
+    /* 14. Buttons */
+    --button-primary-bg-color: #1a1513;
+    --button-primary-fg-color: #cdc3b4;
+    --button-primary-bg-hover-color: #000000;
+    --button-bg-color: #bfb4a3;
+    --button-border-color: #4a413d;
+    --button-bg-hover-color: #a69a85;
+    --button-minimal-bg-active-color: #7a7369;
+    --button-minimal-bg-color: #cdc3b4;
+
+    /* 15. Shadows & Glows */
+    --color-shadow: rgba(26, 21, 19, 0.2);
+    --color-shadow-cards: 0 4px 12px rgba(0, 0, 0, 0.12);
+    --color-shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.18);
+    --logo-color: #1a1513;
+
+    /* 16. Enums - Spruce & Sap */
+    --enum-red-bg: #d7cccc;
+    --enum-red-fg: #5c1a1a;
+    --enum-orange-bg: #d7d1cc;
+    --enum-orange-fg: #5c3a1a;
+    --enum-yellow-bg: #d7d7cc;
+    --enum-yellow-fg: #4d4d1a;
+    --enum-green-bg: #ccd7cc;
+    --enum-green-fg: #2d3a2d;
+    --enum-cyan-bg: #ccd7d7;
+    --enum-cyan-fg: #2d4d4d;
+    --enum-blue-bg: #ccccd7;
+    --enum-blue-fg: #2d2d4d;
+    --enum-purple-bg: #d1ccd7;
+    --enum-purple-fg: #3a2d4d;
+    --enum-pink-bg: #d7ccd1;
+    --enum-pink-fg: #4d2d3a;
+    --enum-zinc-bg: #7a7369;
+
+    /* 17. Note Blocks & Panels */
+    --ed-block-note-bg: rgba(74, 65, 61, 0.06);
+    --ed-block-note-border: #4a413d;
+    --ed-block-warning-bg: #d7a8a8;
+    --ed-block-warning-border: #a65d5d;
+    --prop-border-focused: #1a1513;
+    --prop-bg-focused: #bfb4a3;
+    --shadow-sticky-row: 0 4px 12px rgba(0, 0, 0, 0.0);
+    --ed-drag-handle-color: #1a1513;
+
+    /* 18. Indent Rainbow Integration */
+        /* Making sure the lines blend with the soot aesthetic */
+        --bt-line-width: 2px;
+        --bt-line-opacity: 0.25;
+        --bt-line-opacity-hover: 0.6;
+        
+        .listitem-indentline {
+            /* Adds a subtle 'burned' edge to the lines */
+            border-right: 1px solid rgba(26, 21, 19, 0.05) !important;
+            box-shadow: -1px 0 0 rgba(255, 255, 255, 0.1); /* Soft highlight */
+        }
+    
+        /* Stronger focus on the active thread */
+        .bt-focused > .line-div > .listitem-indentline {
+            filter: brightness(0.9) contrast(1.2) !important;
+            --bt-line-opacity: 0.8 !important;
+        }
+  
+    --gradient-scrim: none;
+    
+}
